@@ -8,14 +8,14 @@ export default function StoreView({itemState, appPrefs, onListLimitChange,
 	closeModal, onOption, inputChange, session}) {
 
 	let columns = [];
-	if (itemState.prefLabels != null && itemState.prefLabels.ADMIN_STORE_PAGE != null) {
-		columns = itemState.prefLabels.ADMIN_STORE_PAGE;
+	if (itemState.prefLabels != null && itemState.prefLabels.EC_STORE_ADMIN_PAGE != null) {
+		columns = itemState.prefLabels.EC_STORE_ADMIN_PAGE;
 	}
 	let group = "TABLE1";
 	
 	let header = "";
-	if (itemState.prefTexts.ADMIN_STORE_PAGE != null && itemState.prefTexts.ADMIN_STORE_PAGE.ADMIN_STORE_PAGE_HEADER != null) {
-		header = itemState.prefTexts.ADMIN_STORE_PAGE.ADMIN_STORE_PAGE_HEADER.value;
+	if (itemState.prefTexts.EC_STORE_ADMIN_PAGE != null && itemState.prefTexts.EC_STORE_ADMIN_PAGE.EC_STORE_ADMIN_PAGE_HEADER != null) {
+		header = itemState.prefTexts.EC_STORE_ADMIN_PAGE.EC_STORE_ADMIN_PAGE_HEADER.value;
 	}
   
 	let deleteModalHeader = "Delete ";

@@ -5,7 +5,7 @@ import FormBuilder from '../../coreView/common/form-builder';
 export default function StoreModifyView({itemState, appPrefs, 
 	onSave, onCancel, inputChange}) {
 
-	let formName = "ADMIN_STORE_FORM";
+	let formName = "EC_STORE_ADMIN_FORM";
 	let formTitle = "Store";
 	let formGroup = "FORM1";
     		
